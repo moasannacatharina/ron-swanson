@@ -1,12 +1,7 @@
 import "./title.css";
 
-const Title = () => {
-  return (
-    <h1>
-      <span className="find">Find</span> your{" "}
-      <span className="favorite">favorite</span> ron swanson quote
-    </h1>
-  );
+const Title = ({ children }) => {
+  return <h1>{children}</h1>;
 };
 
 export default Title;
