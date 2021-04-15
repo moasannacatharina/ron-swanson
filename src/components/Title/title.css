@@ -1,0 +1,23 @@
+h1 {
+  margin: 40px 10px;
+  /* font-family: Futura; */
+  font-weight: 800;
+  font-size: 47px;
+  line-height: 62px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #fff;
+  color: #4d52c5;
+  animation: drop 1s ease-in;
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.favorite {
+  animation: drop 1s ease-in;
+}
