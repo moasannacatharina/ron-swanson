@@ -1,5 +1,7 @@
 import React from "react";
 import "./quotes.css";
+
+//Components
 import Button from "../../components/Button";
 import Svg from "../../components/Svg";
 import Title from "../../components/Title";
@@ -13,7 +15,7 @@ const Quotes = () => {
 
   return (
     <div className="quotes-view">
-      <Title>Find your favorite ron swanson quote</Title>
+      <Title size={"47"}>Find your favorite ron swanson quote</Title>
       <Svg moving={moving} />
       <Button
         handleClick={() =>

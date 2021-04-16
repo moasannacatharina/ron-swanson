@@ -1,7 +1,7 @@
 import React from "react";
 import "./svg.css";
 
-const Image = ({ moving }) => {
+const Svg = ({ moving }) => {
   return (
     <svg width="232" height="319" viewBox="0 0 232 319" fill="none">
       <path
@@ -97,4 +97,4 @@ const Image = ({ moving }) => {
   );
 };
 
-export default Image;
+export default Svg;

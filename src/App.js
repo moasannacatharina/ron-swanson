@@ -1,9 +1,5 @@
 import React from "react";
 import "./App.css";
-import Button from "./components/Button";
-import Image from "./components/Svg";
-import Title from "./components/Title";
-import Quote from "./components/Quote";
 import { Router } from "@reach/router";
 import Quotes from "./pages/Quotes";
 import Home from "./pages/Home";

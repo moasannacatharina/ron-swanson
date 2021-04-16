@@ -1,7 +1,7 @@
 import "./title.css";
 
-const Title = ({ children }) => {
-  return <h1>{children}</h1>;
+const Title = ({ size, children }) => {
+  return <h1 style={{ fontSize: size + "px" }}>{children}</h1>;
 };
 
 export default Title;
