@@ -7,8 +7,8 @@ import "./gifs.css";
 const Gifs = () => {
   const [clickResult, setClickResult] = React.useState([]);
   const [visible, setVisible] = React.useState("");
-  //   const rootUrl = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.REACT_APP_API_KEY}&q=ron%20swanson&limit=25&offset=0&rating=g&lang=en`;
-  const rootUrl = `https://api.giphy.com/v1/gifs/search?api_key=jQNzFVIY0nYeqhcXhKayzHa8bhOvQFpA&q=ron%20swanson&limit=25&offset=0&rating=g&lang=en`;
+  const rootUrl = `https://api.giphy.com/v1/gifs/search?api_key=${process.env.REACT_APP_API_KEY}&q=ron%20swanson&limit=25&offset=0&rating=g&lang=en`;
+  // const rootUrl = `https://api.giphy.com/v1/gifs/search?api_key=jQNzFVIY0nYeqhcXhKayzHa8bhOvQFpA&q=ron%20swanson&limit=25&offset=0&rating=g&lang=en`;
 
   return (
     <div className="gifs-view">
