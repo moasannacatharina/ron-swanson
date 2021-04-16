@@ -8,10 +8,11 @@ button {
   justify-content: center;
   text-transform: uppercase;
   padding: 1rem 2rem;
-  margin: 2rem;
+  margin: 2rem 5px;
   font-family: Futura, -apple-system, sans-serif;
   cursor: pointer;
   font-size: 18px;
+  width: 190px;
 }
 
 button:focus {
@@ -21,4 +22,11 @@ button:focus {
 
 button:hover {
   box-shadow: 0px 1px 0px 0px #252222;
+}
+
+@media screen and (max-width: 415px) {
+  button {
+    font-size: 14px;
+    width: 160px;
+  }
 }

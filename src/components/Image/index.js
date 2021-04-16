@@ -6,7 +6,7 @@ const Image = ({ src, visible, width }) => {
       src={src}
       alt="gif"
       className={`gif ${visible}`}
-      style={{ width: width + "px" }}
+      style={{ width: width }}
     />
   );
 };
