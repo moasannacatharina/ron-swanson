@@ -1,8 +1,29 @@
 .gif {
   display: none;
   margin: 30px;
+  max-height: 60vh;
 }
 
 .true {
   display: block;
+  animation: scale 1s ease-in;
+}
+
+.menu {
+  display: block;
+  transition: 0.2s ease-in;
+  margin: 20px;
+}
+
+.menu:hover {
+  transform: scale(1.2);
+}
+
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }

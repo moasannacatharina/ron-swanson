@@ -25,7 +25,7 @@ const Gifs = () => {
       >
         Press here
       </Button>
-      <Image visible={visible} src={clickResult} width={"90%"} />
+      <Image visible={visible} src={clickResult} width={"80%"} />
     </div>
   );
 };
