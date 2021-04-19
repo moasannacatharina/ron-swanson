@@ -4,7 +4,11 @@
 ## About
 
 In this small project built in ReactJS, I've chosen to honor the parks and rec hero Ron Swanson. <br>
-My project is hosted on Vercel, you can find it [here](https://ronswansonftw.vercel.app).
+My project is hosted on Vercel, you can find it [here](https://ronswansonftw.vercel.app). <br>
+
+I've used two APIS:
+- [Giphy](https://developers.giphy.com/)
+- [Ron Swanson Quotes API](https://github.com/jamesseanwright/ron-swanson-quotes).
 
 <details><summary><b>Requirements:</b></summary>
   
