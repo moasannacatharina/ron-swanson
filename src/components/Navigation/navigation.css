@@ -4,3 +4,20 @@ nav {
   top: 0;
   left: 0;
 }
+
+span {
+  position: fixed;
+  top: 70px;
+  left: 10px;
+  line-height: 62px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #fff;
+  color: #4d52c5;
+  display: none;
+}
+.image-container {
+  width: 70px;
+}
+.image-container:hover span {
+  display: block;
+}

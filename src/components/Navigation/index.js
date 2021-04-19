@@ -8,9 +8,12 @@ import "./navigation.css";
 const Navigation = () => {
   return (
     <nav>
-      <Link className="link" to="/">
-        <Image src={logo} width={"40px"} visible={"menu"} />
-      </Link>
+      <div className="image-container">
+        <Link className="link" to="/">
+          <Image src={logo} width={"40px"} visible={"menu"} />
+          <span>Go home!</span>
+        </Link>
+      </div>
     </nav>
   );
 };
