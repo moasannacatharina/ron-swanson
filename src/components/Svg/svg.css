@@ -6,7 +6,6 @@
 .true.right-eyebrow,
 .true.left-eyebrow {
   animation: bounce 0.8s infinite;
-  cursor: pointer;
 }
 
 @keyframes bounce {
